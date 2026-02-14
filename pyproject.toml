@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qjalalicalendarwidget"
+version = "0.2.1"
+description = "A modern Jalali (Persian) calendar widget for PySide6"
+readme = "README.md"
+authors = [
+    { name = "Reza" }
+]
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+dependencies = [
+    "PySide6>=6.9",
+    "jdatetime>=4.0"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
