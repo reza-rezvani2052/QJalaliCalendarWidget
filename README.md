@@ -3,6 +3,8 @@
 > A modern, customizable Jalali (Persian) calendar widget for PySide6\
 > ویجت تقویم جلالی حرفه‌ای و قابل شخصی‌سازی برای PySide6
 
+![PyPI](https://img.shields.io/pypi/v/qjalalicalendarwidget) ![Python Version](https://img.shields.io/pypi/pyversions/qjalalicalendarwidget) ![License](https://img.shields.io/pypi/l/qjalalicalendarwidget) ![Downloads](https://img.shields.io/pypi/dm/qjalalicalendarwidget) ![GitHub stars](https://img.shields.io/github/stars/reza-rezvani2052/QJalaliCalendarWidget) ![GitHub issues](https://img.shields.io/github/issues/reza-rezvani2052/QJalaliCalendarWidget)
+
 ------------------------------------------------------------------------
 
 ## ❓ Why QJalaliCalendarWidget? | چرا این پروژه؟
@@ -176,8 +178,8 @@ calendar.dateSelected.connect(...)
 ## 📋 Requirements \| پیش‌نیازها
 
 - Python 3.11+
-- PySide6
-- jdatetime
+- PySide6 6.6+
+- jdatetime 4.1+
 
 ------------------------------------------------------------------------
 
