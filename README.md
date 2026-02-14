@@ -4,6 +4,12 @@
 > ویجت تقویم جلالی حرفه‌ای و قابل شخصی‌سازی برای PySide6
 
 ------------------------------------------------------------------------
+```md
+![PyPI](https://img.shields.io/pypi/v/qjalalicalendarwidget)
+![Python Version](https://img.shields.io/pypi/pyversions/qjalalicalendarwidget)
+![License](https://img.shields.io/pypi/l/qjalalicalendarwidget)
+
+------------------------------------------------------------------------
 
 ## 🌟 Features \| ویژگی‌ها
 
