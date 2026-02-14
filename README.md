@@ -39,9 +39,9 @@
 
 ## 📷 Screenshot \| تصویر ویجت
 
-> بعدا تصویر ویجت را در اینجا قرار دهم
+> تصویر ویجت جلالی
 
-![Calendar Screenshot](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/docs/screenshot.png)
+![QJalaliCalendarWidget Screenshot](docs/screenshot.png)
 
 ------------------------------------------------------------------------
 
