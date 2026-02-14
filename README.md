@@ -47,7 +47,7 @@
 
 > تصویر ویجت جلالی
 
-![QJalaliCalendarWidget Screenshot](docs/screenshot.png)
+![QJalaliCalendarWidget Screenshot](https://raw.githubusercontent.com/reza-rezvani2052/QJalaliCalendarWidget/master/docs/screenshot.png)
 
 ------------------------------------------------------------------------
 
