@@ -5,6 +5,23 @@
 
 ------------------------------------------------------------------------
 
+## ❓ Why QJalaliCalendarWidget? | چرا این پروژه؟
+
+### 🇬🇧 English
+
+Qt does not provide a built-in Jalali (Persian) calendar widget.  
+Developers often need to implement custom solutions from scratch.
+
+**QJalaliCalendarWidget** fills this gap by providing a modern, customizable, and production-ready Jalali calendar component for PySide6 applications.
+
+### 🇮🇷 فارسی
+
+Qt به‌صورت پیش‌فرض ویجتی برای تقویم جلالی (شمسی) ارائه نمی‌دهد و توسعه‌دهندگان معمولاً مجبورند این قابلیت را از ابتدا پیاده‌سازی کنند.
+
+پروژه **QJalaliCalendarWidget** این خلأ را با ارائه یک ویجت تقویم جلالی مدرن، قابل شخصی‌سازی و آماده استفاده در محیط‌های واقعی (Production) برای PySide6 برطرف می‌کند.
+
+------------------------------------------------------------------------
+
 ## 🌟 Features \| ویژگی‌ها
 
 ### 🇬🇧 English
@@ -150,6 +167,7 @@ calendar.setThemeColors(
 calendar.selectionChanged.connect(...)
 calendar.activated.connect(...)
 calendar.currentPageChanged.connect(...)
+calendar.confirmed.connect(...)
 calendar.dateSelected.connect(...)
 ```
 
@@ -175,6 +193,13 @@ Pull requests are welcome.\
 For major changes, please open an issue first.
 
 از پیشنهادها و مشارکت شما استقبال می‌شود.
+
+------------------------------------------------------------------------
+
+## 🔗 Links
+
+- GitHub: https://github.com/reza-rezvani2052/QJalaliCalendarWidget
+- PyPI: https://pypi.org/project/qjalalicalendarwidget/
 
 ------------------------------------------------------------------------
 
