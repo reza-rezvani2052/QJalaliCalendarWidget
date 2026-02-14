@@ -1,9 +1,13 @@
 # 📅 QJalaliCalendarWidget
 
-> A modern, customizable Jalali (Persian) calendar widget for PySide6\
-> ویجت تقویم جلالی حرفه‌ای و قابل شخصی‌سازی برای PySide6
+> A modern, fully RTL-ready Jalali (Persian) calendar widget for PySide6\
+> <span dir="rtl">ویجت تقویم جلالی حرفه‌ای و قابل شخصی‌سازی برای PySide6</span>
 
 ![PyPI](https://img.shields.io/pypi/v/qjalalicalendarwidget) ![Python Version](https://img.shields.io/pypi/pyversions/qjalalicalendarwidget) ![License](https://img.shields.io/pypi/l/qjalalicalendarwidget) ![Downloads](https://img.shields.io/pypi/dm/qjalalicalendarwidget) ![GitHub stars](https://img.shields.io/github/stars/reza-rezvani2052/QJalaliCalendarWidget) ![GitHub issues](https://img.shields.io/github/issues/reza-rezvani2052/QJalaliCalendarWidget)
+
+## ✨ Quick Preview
+
+![QJalaliCalendarWidget Screenshot](https://raw.githubusercontent.com/reza-rezvani2052/QJalaliCalendarWidget/master/docs/screenshot.png)
 
 ------------------------------------------------------------------------
 
@@ -18,9 +22,55 @@ Developers often need to implement custom solutions from scratch.
 
 ### 🇮🇷 فارسی
 
+<div dir="rtl">
 Qt به‌صورت پیش‌فرض ویجتی برای تقویم جلالی (شمسی) ارائه نمی‌دهد و توسعه‌دهندگان معمولاً مجبورند این قابلیت را از ابتدا پیاده‌سازی کنند.
 
-پروژه **QJalaliCalendarWidget** این خلأ را با ارائه یک ویجت تقویم جلالی مدرن، قابل شخصی‌سازی و آماده استفاده در محیط‌های واقعی (Production) برای PySide6 برطرف می‌کند.
+پروژه **QJalaliCalendarWidget** این خلأ را با ارائه یک ویجت تقویم جلالی مدرن، قابل شخصی‌سازی و آماده استفاده در محیط‌های
+واقعی (Production) برای PySide6 برطرف می‌کند.
+</div>
+
+------------------------------------------------------------------------
+
+## 🔄 Compared to QCalendarWidget | مقایسه با QCalendarWidget
+
+### 🇬🇧 English
+
+While Qt provides `QCalendarWidget`, it is primarily designed for the Gregorian calendar and lacks native Jalali (Persian) support.
+
+**QJalaliCalendarWidget** is not just a visual modification — it is built with a fully Jalali-based internal logic and
+tailored specifically for Persian applications.
+
+Key differences:
+
+- ✅ Fully Jalali-based date system (not a conversion layer)
+- ✅ Native RTL layout design
+- ✅ Persian digit rendering support
+- ✅ Integrated with `jdatetime`
+- ✅ Customizable month & weekday names
+- ✅ Designed specifically for Persian user experience
+
+---
+
+### 🇮🇷 فارسی
+
+<div dir="rtl">
+
+اگرچه Qt ویجتی به نام `QCalendarWidget` ارائه می‌دهد، اما این ویجت بر پایه تقویم میلادی طراحی شده و پشتیبانی بومی از
+تقویم جلالی (شمسی) ندارد.
+
+**QJalaliCalendarWidget** صرفاً یک تغییر ظاهری نیست؛ بلکه بر پایه منطق داخلی کاملاً جلالی توسعه داده شده و به‌طور ویژه
+برای اپلیکیشن‌های فارسی طراحی شده است.
+
+تفاوت‌های کلیدی:
+
+- ✅ سیستم تاریخ کاملاً جلالی (نه صرفاً تبدیل از میلادی)
+- ✅ طراحی بومی راست‌به‌چپ (RTL)
+- ✅ پشتیبانی از نمایش اعداد فارسی
+- ✅ یکپارچه با `jdatetime`
+- ✅ امکان شخصی‌سازی نام ماه‌ها و روزهای هفته
+- ✅ طراحی شده با تمرکز بر تجربه کاربری فارسی
+
+</div>
 
 ------------------------------------------------------------------------
 
@@ -36,12 +86,14 @@ Qt به‌صورت پیش‌فرض ویجتی برای تقویم جلالی (ش
 - ✅ Keyboard navigation
 - ✅ Date range restriction (min/max)
 - ✅ Custom month & weekday names
-- ✅ Qt-style signals (`selectionChanged`, `activated`, etc.)
+- ✅ Qt-style signals compatible with QCalendarWidget
 - ✅ Modern UI design
 
 ------------------------------------------------------------------------
 
 ### 🇮🇷 فارسی
+
+<div dir="rtl">
 
 - ✅ پشتیبانی کامل از تقویم جلالی (شمسی)
 - ✅ توسعه داده شده با PySide6
@@ -54,13 +106,7 @@ Qt به‌صورت پیش‌فرض ویجتی برای تقویم جلالی (ش
 - ✅ سیگنال‌های مشابه QCalendarWidget
 - ✅ طراحی مدرن و تمیز
 
-------------------------------------------------------------------------
-
-## 📷 Screenshot \| تصویر ویجت
-
-> تصویر ویجت جلالی
-
-![QJalaliCalendarWidget Screenshot](https://raw.githubusercontent.com/reza-rezvani2052/QJalaliCalendarWidget/master/docs/screenshot.png)
+</div>
 
 ------------------------------------------------------------------------
 
@@ -177,9 +223,9 @@ calendar.dateSelected.connect(...)
 
 ## 📋 Requirements \| پیش‌نیازها
 
-- Python 3.11+
-- PySide6 6.6+
-- jdatetime 4.1+
+- Python >= 3.11
+- PySide6 >= 6.6
+- jdatetime >= 4.1
 
 ------------------------------------------------------------------------
 
